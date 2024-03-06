@@ -140,7 +140,6 @@ public class LocaleUtils {
         return StringUtils.isAllLowerCase(str) & (str.length() == 2 || str.length() == 3);
     }
     
-
     /**
      * Checks whether the given String is a UN M.49 numeric area code.
      *
