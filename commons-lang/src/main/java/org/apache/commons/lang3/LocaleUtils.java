@@ -136,9 +136,9 @@ public class LocaleUtils {
      * @param str the String to check.
      * @return true, if the given String is a ISO 639 compliant language code.
      */
-        private static boolean isISO639LanguageCode(final String str) {
-            return StringUtils.isAllLowerCase(str) &(str.length() == 2 || str.length() == 3);
-        }
+    private static boolean isISO639LanguageCode(final String str) {
+        return StringUtils.isAllLowerCase(str) & (str.length() == 2 || str.length() == 3);
+    }
     
 
     /**
